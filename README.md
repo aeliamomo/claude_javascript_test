@@ -36,6 +36,8 @@ scp Downloads/report.txt testuser@35.197.38.228:/home/testuser/
 rm ~/.bash_history
 ```
 
+# Structure 
+```bash
 minimal-js-ml/
 ├── data/
 │   └── sample.csv                # Example input dataset
@@ -61,4 +63,4 @@ minimal-js-ml/
 ├── LICENSE
 └── package.json                 # Node.js project metadata
 
-
+```
