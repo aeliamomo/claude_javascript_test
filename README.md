@@ -35,3 +35,30 @@ scp Downloads/report.txt testuser@35.197.38.228:/home/testuser/
 ```bash
 rm ~/.bash_history
 ```
+
+minimal-js-ml/
+├── data/
+│   └── sample.csv                # Example input dataset
+│
+├── core/
+│   ├── csvUtils.js               # CSV reader and writer
+│   ├── preprocessing.js          # Normalization, encoding, etc.
+│   └── statistics.js             # Basic math and stats utilities
+│
+├── models/
+│   ├── linearRegression.js       # Linear regression (e.g., using TensorFlow.js or custom)
+│   ├── logisticRegression.js     # Logistic regression implementation
+│   └── knn.js                    # K-Nearest Neighbors wrapper
+│
+├── examples/
+│   ├── regressionExample.js      # End-to-end regression example
+│   └── classificationExample.js  # End-to-end classification example
+│
+├── tests/
+│   └── ...                       # Unit tests using Jest or Mocha
+│
+├── README.md
+├── LICENSE
+└── package.json                 # Node.js project metadata
+
+
